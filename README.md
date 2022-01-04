@@ -1,6 +1,12 @@
 # BlandAltman
-Demonstration of the Bland-Altman plotting and analysis technique.
+This repository contains a demonstration of the Bland-Altman plotting and analysis technique, which is a statistically robust yet simple alternative to regression and scatterplot methods often employed for the assessment of the 'quality' of a measurement system or data product. 
+
+Bland-Altman analysis addresses the question *"How well do measurements from one instrument/algorithm/technique/etc. compare to that of another?"* Regression and scatterplots are not designed to address this question, and are based on assumptions of data numerical distribution that is often not the case with the assessed dataset. 
+
+The python notebook, assessed in the Google Colab link below, reference the literature supporting the Bland-Altman technique, and provide side by side examples of Bland-Altman and regression/scatterplot analysis. It also provides an analysis and plotting function.
 
 To use, click this link:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/knobelsp/BlandAltman/blob/main/BlandAltman.ipynb)
+
+-Kirk Knobelspiesse, comments to kirk.knobelspiesse@nasa.gov
 
